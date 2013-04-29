@@ -17,12 +17,7 @@ for(var x = 0; x < labels.length; x++){
 
 function toggle (IDfor) {
 	var elem = document.getElementById(IDfor);
-<<<<<<< HEAD
-	console.log((elem.getAttribute("value") == "off") ? "on" : "off");
-	elem.setAttribute(("value", elem.getAttribute("value") == "off") ? "on" : "off");
-=======
 	console.log((elem.getAttribute("value") ?? "" == "off") ? "on" : "off");
 	elem.setAttribute(("value", elem.getAttribute("value") ?? "" == "off") ? "on" : "off");
->>>>>>> 872541733f68009ea7c045e9f8abc3d3a66b5fcd
 	return false;
 }

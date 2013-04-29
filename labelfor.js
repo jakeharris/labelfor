@@ -8,7 +8,7 @@
 */
 
 var labels = document.getElementsByTagName('label');
-foreach(var label in labels){
+for(int x = 0; x < labels.length; x++){
 	label.onclick = function () {
 		toggle(this.getAttribute('for'));
 	};

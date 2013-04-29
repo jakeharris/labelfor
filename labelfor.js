@@ -15,6 +15,10 @@ for(var x = 0; x < labels.length; x++){
 }
 
 function toggle (IDfor) {
-	document.getElementById(IDfor).click();
+	var elem = document.getElementById(IDfor);
+	elem.click();
+	if(elem.getAttribute("checked") == "true" || elem.getAttribute("value") == "on"){
+		elem.className += "checked";
+	}
 	return false;
 }

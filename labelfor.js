@@ -18,6 +18,6 @@ for(var x = 0; x < labels.length; x++){
 function toggle (IDfor) {
 	var elem = document.getElementById(IDfor);
 	console.log(elem.getAttribute("value"));
-	elem.setAttribute(("value", elem.getAttribute("value") == "off") ? "on" : "off");
+	elem.setAttribute("value", (elem.getAttribute("value") != "on") ? "on" : "off");
 	return false;
 }

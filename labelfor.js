@@ -9,6 +9,7 @@
 
 var labels = document.getElementsByTagName('label');
 for(var x = 0; x < labels.length; x++){
+	console.log(x);
 	label.onclick = function () {
 		toggle(this.getAttribute('for'));
 	};

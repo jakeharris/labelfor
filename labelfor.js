@@ -9,7 +9,6 @@
 window.onload = function () {
 	var labels = document.getElementsByTagName('label');
 	for(var x = 0; x < labels.length; x++){
-		console.log(x);
 		labels[x].onclick = function () {
 			toggle(this.getAttribute('for'));
 		};
@@ -17,7 +16,6 @@ window.onload = function () {
 }
 function toggle (IDfor) {
 	var elem = document.getElementById(IDfor);
-	console.log(elem.getAttribute("value"));
 	elem.setAttribute("value", (elem.getAttribute("value") != "on") ? "on" : "off");
 	return false;
 }

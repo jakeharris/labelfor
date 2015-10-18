@@ -1,5 +1,5 @@
 /*
-	Author/Copyright: javakat (javakatdesign@gmail.com)
+	Author/Copyright: milieu, or Jake Harris (milieu@javakat.com)
 	
 	Labelfor.js
 	Label-for fix for IE8. 
